@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import CalorieCalculator from './components/CalorieCalculator';
 
 function App() {
   return (
     <div className="App">
-    Daily Calories Calculator
+    <CalorieCalculator/>
     </div>
   );
 }
