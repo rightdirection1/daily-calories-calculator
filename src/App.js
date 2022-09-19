@@ -1,10 +1,10 @@
 import './App.css';
-import CalorieCalculator from './components/CalorieCalculator';
+import CaloriesCalculator from './components/caloriescalculator/CaloriesCalculator';
 
 function App() {
   return (
     <div className="App">
-    <CalorieCalculator/>
+    <CaloriesCalculator/>
     </div>
   );
 }
